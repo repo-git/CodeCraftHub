@@ -1,0 +1,26 @@
+user-service/
+│
+├── src/
+│   ├── config/
+│   │   └── db.js               # Configurazione della connessione a MongoDB
+│   │
+│   ├── controllers/
+│   │   └── userController.js    # Logica per gestire le richieste degli utenti
+│   │
+│   ├── models/
+│   │   └── userModel.js         # Schema utente per MongoDB
+│   │
+│   ├── routes/
+│   │   └── userRoutes.js        # Definizione delle rotte per le API degli utenti
+│   │
+│   ├── middleware/
+│   │   └── authMiddleware.js     # Middleware per l'autenticazione
+│   │
+│   ├── services/
+│   │   └── userService.js        # Logica di business per la gestione degli utenti
+│   │
+│   └── app.js                   # File principale per avviare l'applicazione
+│
+├── .env                         # File per le variabili d'ambiente
+├── package.json                 # File di configurazione del progetto
+└── README.md                    # Documentazione del progetto
