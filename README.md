@@ -18,14 +18,16 @@ bash npm start
 
 ### Registrazione Utente
 
-5- **Endpoint**: `POST /api/users/register`
-6- **Body**:
+- **Endpoint**: `POST /api/users/register`
+- **Body**:
 json { "username": "string", "email": "string", "password": "string" }
-1### Login Utente
-2
-3- **Endpoint**: `POST /api/users/login`
-4- **Body**:
+
+### Login Utente
+
+- **Endpoint**: `POST /api/users/login`
+- **Body**:
 json { "email": "string", "password": "string" }
+
 ## Note
 
 Assicurati di avere MongoDB in esecuzione e di modificare l'URI nel file `.env` in base alla tua configurazione.
